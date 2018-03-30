@@ -1,0 +1,197 @@
+body {
+	font-size: 200%;
+	background-color: Black;
+	color: #5A2517;
+}
+
+#head {
+	padding: 18px 10px;
+	border-bottom: 1px solid #999;
+}
+a:hover {
+	color: red;
+}
+h1 {
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	padding: 0;
+	margin: 0;
+}
+#nav {
+	list-style-type: none;
+	padding: 10px;
+	margin :0;
+	border-bottom: 1px solid #999;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+#nav a {
+	color: black;
+}
+#nav li {
+	float: left;
+	padding-right: 20px;
+}
+#nav em {
+	font-weight: bold;
+	color: #666;
+}
+#foot {
+	clear: both;
+	border-top: 1px solid #999;
+	padding: 10px;
+	font-size: 0.9em;
+	text-align: right;
+}
+#foot a {
+	color: #666;
+}
+#foot a:hover {
+	color: #000;
+}
+p {
+	margin: 18px 0;
+}
+ul {
+	list-style: square;
+	margin: 18px 0;
+	padding: 0 0 0 18px;
+}
+ol {
+	margin: 18px 0;
+	padding: 0 0 0 18px;
+}
+p:first-child,
+ul:first-child,
+h2:first-child
+ol:first-child {
+	margin-top: 0;
+}
+p:last-child,
+ul:last-child,
+ol:last-child,
+h2:last-child {
+	margin-bottom: 0;
+}
+H2 {
+	padding: 5px;
+	font-size: 14pt;
+	font-style: italic;
+	margin-top: 0;
+}
+#content {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: black;
+	color: #CCC;
+	width: 	748px;
+	height: 	506px;
+	padding: 10px;
+	min-height: 200px;
+}
+#holder {
+	position: relative;
+	width: 400px;
+	height:300px;
+	top: 100px;
+	left: 184px;
+}
+#sky {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 150px;
+	width: 400px;
+	background-color: #CCD;
+	background-image: url(../media/sky.jpg);
+}
+#floor {
+	position: absolute;
+	left: 0;
+	top: 150px;
+	height: 150px;
+	width: 400px;
+	background-color: #565;
+	background-image: url(../media/floor.png);
+}
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 300px;
+	background-image: url(../media/overlay.png);
+}
+#changement{
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 79px;
+	height: 80px;
+	color: #ffffff;
+	font-size: 72px;
+	padding-left: 10px;
+	letter-spacing: -10px;
+	text-align: left;
+	line-height: 76px;
+	background-image: url(../media/guide.png);
+	font-family: Arial, Helvetica, sans-serif;
+}
+#perdu{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 400px;
+	height: 300px;
+	background-image: url(../media/perdu.png);
+}
+#small{
+	font-size: 10px;
+}
+#map, #underMap {
+	top: 140px;
+	left: 60px;
+	position: absolute;
+}
+#code {
+	position: absolute;
+	top: 160px;
+	margin-left: 5px;
+}
+#content A {
+	color: #66AACC;
+}
+#content A:hover {
+	color: lime;
+}
+a.recommencer, a.recommencer:visited{
+	top: 200px;
+	left: 280px;
+	position: absolute;
+	background-image:  url(../media/recommencer.png);
+	background-attachment:fixed;
+	background-position: -0px -12px;
+	text-decoration: none;
+	width: 97 px;
+	max-width: 97 px;
+	min-width: 97px;
+	height: 20px;
+	max-height: 20px;
+	min-height: 20px;
+	border: none;
+	display: block;
+}
+a.recommencer:hover{
+	background-image:  url(../media/recommencer.png);
+	background-position: -0px 7px; 
+}
+#papier{
+	
+}

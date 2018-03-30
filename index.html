@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<title>Canvas | 1st-Person Gifter</title> 
+	<style><!-- @import "css/gifter.css"; --></style> 
+	<!--<script type="text/javascript" src="js/chargeTextures.js"></script>
+	<script type="text/javascript" src="js/clothb.js"></script>
+	<script type="text/javascript" src="js/papervision.js"></script>-->
+	<script type="text/javascript" src="js/gifterb.js"></script>   
+</head> 
+<body onload="chargeTextures();"> 
+<p style="color: red; font-size: 14px;">"Raffraichir la page une fois"</p>
+<p style="color: white; font-size: 14px;">Suivez en temps reel le developpement du jeu</p>
+<div id="content" style="border: 1px solid black;">        
+<canvas id="underMap" width="80" height="80"></canvas> 
+<canvas id="map" width="80" height="80"></canvas>
+<div id="stuff">
+	<audio id="audio" src="mp3/song.mp3">  
+		<p style="color: #ffffff;">Votre explorateur ne supporte pas les éléments <CODE>audio</CODE>.</p>
+	</audio>
+</div>
+<div id="holder" style="clear:both;"> 
+    <div id="sky"></div> 
+    <div id="floor"></div> 
+    <canvas id="canvas" width="400" height="300"></canvas> 
+	<div id="changement">20</div>
+	<div id="overlay"></div> 
+	<div id="perdu">
+		<a href="#" class="recommencer" onclick="began(); return false;" title="recommencer le jeu" ></a>
+	</div> 
+</div>
+</div>  
+	<p style="font-size: 12px;">Source code adapted from Benjamin Joffe's <a href="http://www.benjoffe.com/code/demos/canvascape/">Canvascape</a>.</p> 
+    <p style="font-size: 12px;">Utilisez les touches avant/arri&egrave;re/gauche/droite ou z/s/q/d pour vous d&eacute;placer.</p>
+    <p style="font-size: 12px;">Utilisez la touche espace pour vous sauter et r pour vous baisser.</p> 
+    <p style="font-size: 12px;">Utilisez la touche t pour frapper.</p> 
+	<p style="font-size: 12px;">Utilisez la souris pour voir plus haut ou plus bas.</p> 
+</body> 
+</html>
